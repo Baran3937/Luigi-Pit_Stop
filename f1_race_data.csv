@@ -1,0 +1,501 @@
+season,round,race_name,circuit_id,date,driver_id,grid,position
+2019,1,Australian Grand Prix,albert_park,2019-03-17,bottas,2,1
+2019,1,Australian Grand Prix,albert_park,2019-03-17,hamilton,1,2
+2019,1,Australian Grand Prix,albert_park,2019-03-17,max_verstappen,4,3
+2019,1,Australian Grand Prix,albert_park,2019-03-17,vettel,3,4
+2019,1,Australian Grand Prix,albert_park,2019-03-17,leclerc,5,5
+2019,1,Australian Grand Prix,albert_park,2019-03-17,kevin_magnussen,7,6
+2019,1,Australian Grand Prix,albert_park,2019-03-17,hulkenberg,11,7
+2019,1,Australian Grand Prix,albert_park,2019-03-17,raikkonen,9,8
+2019,1,Australian Grand Prix,albert_park,2019-03-17,stroll,16,9
+2019,1,Australian Grand Prix,albert_park,2019-03-17,kvyat,15,10
+2019,1,Australian Grand Prix,albert_park,2019-03-17,gasly,17,11
+2019,1,Australian Grand Prix,albert_park,2019-03-17,norris,8,12
+2019,1,Australian Grand Prix,albert_park,2019-03-17,perez,10,13
+2019,1,Australian Grand Prix,albert_park,2019-03-17,albon,13,14
+2019,1,Australian Grand Prix,albert_park,2019-03-17,giovinazzi,14,15
+2019,1,Australian Grand Prix,albert_park,2019-03-17,russell,19,16
+2019,1,Australian Grand Prix,albert_park,2019-03-17,kubica,20,17
+2019,1,Australian Grand Prix,albert_park,2019-03-17,grosjean,6,18
+2019,1,Australian Grand Prix,albert_park,2019-03-17,ricciardo,12,19
+2019,1,Australian Grand Prix,albert_park,2019-03-17,sainz,18,20
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,hamilton,3,1
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,bottas,4,2
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,leclerc,1,3
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,max_verstappen,5,4
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,vettel,2,5
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,norris,9,6
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,raikkonen,8,7
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,gasly,13,8
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,albon,12,9
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,perez,14,10
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,giovinazzi,16,11
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,kvyat,15,12
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,kevin_magnussen,6,13
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,stroll,18,14
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,russell,19,15
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,kubica,20,16
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,hulkenberg,17,17
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,ricciardo,10,18
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,sainz,7,19
+2019,2,Bahrain Grand Prix,bahrain,2019-03-31,grosjean,11,20
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,hamilton,2,1
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,bottas,1,2
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,vettel,3,3
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,max_verstappen,5,4
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,leclerc,4,5
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,gasly,6,6
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,ricciardo,7,7
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,perez,12,8
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,raikkonen,13,9
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,albon,0,10
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,grosjean,10,11
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,stroll,16,12
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,kevin_magnussen,9,13
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,sainz,14,14
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,giovinazzi,19,15
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,russell,17,16
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,kubica,18,17
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,norris,15,18
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,kvyat,11,19
+2019,3,Chinese Grand Prix,shanghai,2019-04-14,hulkenberg,8,20
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,bottas,1,1
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,hamilton,2,2
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,vettel,3,3
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,max_verstappen,4,4
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,leclerc,8,5
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,perez,5,6
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,sainz,9,7
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,norris,7,8
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,stroll,13,9
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,raikkonen,0,10
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,albon,11,11
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,giovinazzi,17,12
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,kevin_magnussen,12,13
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,hulkenberg,15,14
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,russell,16,15
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,kubica,0,16
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,gasly,0,17
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,grosjean,14,18
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,kvyat,6,19
+2019,4,Azerbaijan Grand Prix,baku,2019-04-28,ricciardo,10,20
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,hamilton,2,1
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,bottas,1,2
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,max_verstappen,4,3
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,vettel,3,4
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,leclerc,5,5
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,gasly,6,6
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,kevin_magnussen,8,7
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,sainz,12,8
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,kvyat,9,9
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,grosjean,7,10
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,albon,11,11
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,ricciardo,13,12
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,hulkenberg,0,13
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,raikkonen,14,14
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,perez,15,15
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,giovinazzi,18,16
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,russell,19,17
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,kubica,17,18
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,stroll,16,19
+2019,5,Spanish Grand Prix,catalunya,2019-05-12,norris,10,20
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,bottas,1,1
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,leclerc,7,2
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,norris,3,3
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,hamilton,5,4
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,sainz,8,5
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,perez,6,6
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,gasly,12,7
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,ocon,14,8
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,giovinazzi,18,9
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,vettel,11,10
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,latifi,20,11
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,kvyat,13,12
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,albon,4,13
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,raikkonen,19,14
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,russell,17,15
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,grosjean,15,16
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,kevin_magnussen,16,17
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,stroll,9,18
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,ricciardo,10,19
+2020,1,Austrian Grand Prix,red_bull_ring,2020-07-05,max_verstappen,2,20
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,hamilton,1,1
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,bottas,4,2
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,max_verstappen,2,3
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,albon,6,4
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,norris,9,5
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,perez,17,6
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,stroll,12,7
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,ricciardo,8,8
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,sainz,3,9
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,kvyat,13,10
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,raikkonen,16,11
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,kevin_magnussen,15,12
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,grosjean,0,13
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,giovinazzi,19,14
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,gasly,7,15
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,russell,11,16
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,latifi,18,17
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,ocon,5,18
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,leclerc,14,19
+2020,2,Styrian Grand Prix,red_bull_ring,2020-07-12,vettel,10,20
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,hamilton,1,1
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,max_verstappen,7,2
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,bottas,2,3
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,stroll,3,4
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,albon,13,5
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,vettel,5,6
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,perez,4,7
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,ricciardo,11,8
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,sainz,9,9
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,kevin_magnussen,0,10
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,leclerc,6,11
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,kvyat,17,12
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,norris,8,13
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,ocon,14,14
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,raikkonen,20,15
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,grosjean,0,16
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,giovinazzi,19,17
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,russell,12,18
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,latifi,15,19
+2020,3,Hungarian Grand Prix,hungaroring,2020-07-19,gasly,10,20
+2020,4,British Grand Prix,silverstone,2020-08-02,hamilton,1,1
+2020,4,British Grand Prix,silverstone,2020-08-02,max_verstappen,3,2
+2020,4,British Grand Prix,silverstone,2020-08-02,leclerc,4,3
+2020,4,British Grand Prix,silverstone,2020-08-02,ricciardo,8,4
+2020,4,British Grand Prix,silverstone,2020-08-02,norris,5,5
+2020,4,British Grand Prix,silverstone,2020-08-02,ocon,9,6
+2020,4,British Grand Prix,silverstone,2020-08-02,gasly,11,7
+2020,4,British Grand Prix,silverstone,2020-08-02,albon,12,8
+2020,4,British Grand Prix,silverstone,2020-08-02,stroll,6,9
+2020,4,British Grand Prix,silverstone,2020-08-02,vettel,10,10
+2020,4,British Grand Prix,silverstone,2020-08-02,bottas,2,11
+2020,4,British Grand Prix,silverstone,2020-08-02,russell,20,12
+2020,4,British Grand Prix,silverstone,2020-08-02,sainz,7,13
+2020,4,British Grand Prix,silverstone,2020-08-02,giovinazzi,15,14
+2020,4,British Grand Prix,silverstone,2020-08-02,latifi,18,15
+2020,4,British Grand Prix,silverstone,2020-08-02,grosjean,17,16
+2020,4,British Grand Prix,silverstone,2020-08-02,raikkonen,16,17
+2020,4,British Grand Prix,silverstone,2020-08-02,kvyat,19,18
+2020,4,British Grand Prix,silverstone,2020-08-02,kevin_magnussen,14,19
+2020,4,British Grand Prix,silverstone,2020-08-02,hulkenberg,13,20
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,max_verstappen,4,1
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,hamilton,2,2
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,bottas,1,3
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,leclerc,8,4
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,albon,9,5
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,stroll,6,6
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,hulkenberg,3,7
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,ocon,14,8
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,norris,10,9
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,kvyat,16,10
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,gasly,7,11
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,vettel,11,12
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,sainz,12,13
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,ricciardo,5,14
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,raikkonen,20,15
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,grosjean,13,16
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,giovinazzi,19,17
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,russell,15,18
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,latifi,18,19
+2020,5,70th Anniversary Grand Prix,silverstone,2020-08-09,kevin_magnussen,17,20
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,hamilton,2,1
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,max_verstappen,1,2
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,bottas,3,3
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,norris,7,4
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,perez,0,5
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,leclerc,4,6
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,ricciardo,6,7
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,sainz,8,8
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,tsunoda,13,9
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,stroll,10,10
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,raikkonen,14,11
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,giovinazzi,12,12
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,ocon,16,13
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,russell,15,14
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,vettel,20,15
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,mick_schumacher,18,16
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,gasly,5,17
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,latifi,17,18
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,alonso,9,19
+2021,1,Bahrain Grand Prix,bahrain,2021-03-28,mazepin,19,20
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,max_verstappen,3,1
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,hamilton,1,2
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,norris,7,3
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,leclerc,4,4
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,sainz,11,5
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,ricciardo,6,6
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,gasly,5,7
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,stroll,10,8
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,ocon,9,9
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,alonso,15,10
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,perez,2,11
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,tsunoda,20,12
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,raikkonen,16,13
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,giovinazzi,17,14
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,vettel,0,15
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,mick_schumacher,18,16
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,mazepin,19,17
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,bottas,8,18
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,russell,12,19
+2021,2,Emilia Romagna Grand Prix,imola,2021-04-18,latifi,14,20
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,hamilton,2,1
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,max_verstappen,3,2
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,bottas,1,3
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,perez,4,4
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,norris,7,5
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,leclerc,8,6
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,ocon,6,7
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,alonso,13,8
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,ricciardo,16,9
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,gasly,9,10
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,sainz,5,11
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,giovinazzi,12,12
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,vettel,10,13
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,stroll,17,14
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,tsunoda,14,15
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,russell,11,16
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,mick_schumacher,19,17
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,latifi,18,18
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,mazepin,20,19
+2021,3,Portuguese Grand Prix,portimao,2021-05-02,raikkonen,15,20
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,hamilton,1,1
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,max_verstappen,2,2
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,bottas,3,3
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,leclerc,4,4
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,perez,8,5
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,ricciardo,7,6
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,sainz,6,7
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,norris,9,8
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,ocon,5,9
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,gasly,12,10
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,stroll,11,11
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,raikkonen,17,12
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,vettel,13,13
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,russell,15,14
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,giovinazzi,14,15
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,latifi,19,16
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,alonso,10,17
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,mick_schumacher,18,18
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,mazepin,20,19
+2021,4,Spanish Grand Prix,catalunya,2021-05-09,tsunoda,16,20
+2021,5,Monaco Grand Prix,monaco,2021-05-23,max_verstappen,2,1
+2021,5,Monaco Grand Prix,monaco,2021-05-23,sainz,4,2
+2021,5,Monaco Grand Prix,monaco,2021-05-23,norris,5,3
+2021,5,Monaco Grand Prix,monaco,2021-05-23,perez,9,4
+2021,5,Monaco Grand Prix,monaco,2021-05-23,vettel,8,5
+2021,5,Monaco Grand Prix,monaco,2021-05-23,gasly,6,6
+2021,5,Monaco Grand Prix,monaco,2021-05-23,hamilton,7,7
+2021,5,Monaco Grand Prix,monaco,2021-05-23,stroll,13,8
+2021,5,Monaco Grand Prix,monaco,2021-05-23,ocon,11,9
+2021,5,Monaco Grand Prix,monaco,2021-05-23,giovinazzi,10,10
+2021,5,Monaco Grand Prix,monaco,2021-05-23,raikkonen,14,11
+2021,5,Monaco Grand Prix,monaco,2021-05-23,ricciardo,12,12
+2021,5,Monaco Grand Prix,monaco,2021-05-23,alonso,17,13
+2021,5,Monaco Grand Prix,monaco,2021-05-23,russell,15,14
+2021,5,Monaco Grand Prix,monaco,2021-05-23,latifi,18,15
+2021,5,Monaco Grand Prix,monaco,2021-05-23,tsunoda,16,16
+2021,5,Monaco Grand Prix,monaco,2021-05-23,mazepin,19,17
+2021,5,Monaco Grand Prix,monaco,2021-05-23,mick_schumacher,20,18
+2021,5,Monaco Grand Prix,monaco,2021-05-23,bottas,3,19
+2021,5,Monaco Grand Prix,monaco,2021-05-23,leclerc,1,20
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,leclerc,1,1
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,sainz,3,2
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,hamilton,5,3
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,russell,9,4
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,kevin_magnussen,7,5
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,bottas,6,6
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,ocon,11,7
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,tsunoda,16,8
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,alonso,8,9
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,zhou,15,10
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,mick_schumacher,12,11
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,stroll,19,12
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,albon,14,13
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,ricciardo,18,14
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,norris,13,15
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,latifi,20,16
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,hulkenberg,17,17
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,perez,4,18
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,max_verstappen,2,19
+2022,1,Bahrain Grand Prix,bahrain,2022-03-20,gasly,10,20
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,max_verstappen,4,1
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,leclerc,2,2
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,sainz,3,3
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,perez,1,4
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,russell,6,5
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,ocon,5,6
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,norris,11,7
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,gasly,9,8
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,kevin_magnussen,10,9
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,hamilton,15,10
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,zhou,12,11
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,hulkenberg,17,12
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,stroll,13,13
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,albon,16,14
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,bottas,8,15
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,alonso,7,16
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,ricciardo,14,17
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,latifi,18,18
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,tsunoda,19,19
+2022,2,Saudi Arabian Grand Prix,jeddah,2022-03-27,mick_schumacher,0,20
+2022,3,Australian Grand Prix,albert_park,2022-04-10,leclerc,1,1
+2022,3,Australian Grand Prix,albert_park,2022-04-10,perez,3,2
+2022,3,Australian Grand Prix,albert_park,2022-04-10,russell,6,3
+2022,3,Australian Grand Prix,albert_park,2022-04-10,hamilton,5,4
+2022,3,Australian Grand Prix,albert_park,2022-04-10,norris,4,5
+2022,3,Australian Grand Prix,albert_park,2022-04-10,ricciardo,7,6
+2022,3,Australian Grand Prix,albert_park,2022-04-10,ocon,8,7
+2022,3,Australian Grand Prix,albert_park,2022-04-10,bottas,12,8
+2022,3,Australian Grand Prix,albert_park,2022-04-10,gasly,11,9
+2022,3,Australian Grand Prix,albert_park,2022-04-10,albon,20,10
+2022,3,Australian Grand Prix,albert_park,2022-04-10,zhou,14,11
+2022,3,Australian Grand Prix,albert_park,2022-04-10,stroll,19,12
+2022,3,Australian Grand Prix,albert_park,2022-04-10,mick_schumacher,15,13
+2022,3,Australian Grand Prix,albert_park,2022-04-10,kevin_magnussen,16,14
+2022,3,Australian Grand Prix,albert_park,2022-04-10,tsunoda,13,15
+2022,3,Australian Grand Prix,albert_park,2022-04-10,latifi,18,16
+2022,3,Australian Grand Prix,albert_park,2022-04-10,alonso,10,17
+2022,3,Australian Grand Prix,albert_park,2022-04-10,max_verstappen,2,18
+2022,3,Australian Grand Prix,albert_park,2022-04-10,vettel,17,19
+2022,3,Australian Grand Prix,albert_park,2022-04-10,sainz,9,20
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,max_verstappen,1,1
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,perez,3,2
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,norris,5,3
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,russell,11,4
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,bottas,7,5
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,leclerc,2,6
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,tsunoda,12,7
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,vettel,13,8
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,kevin_magnussen,8,9
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,stroll,15,10
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,albon,18,11
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,gasly,17,12
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,hamilton,14,13
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,ocon,16,14
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,zhou,0,15
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,latifi,19,16
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,mick_schumacher,10,17
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,ricciardo,6,18
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,alonso,9,19
+2022,4,Emilia Romagna Grand Prix,imola,2022-04-24,sainz,4,20
+2022,5,Miami Grand Prix,miami,2022-05-08,max_verstappen,3,1
+2022,5,Miami Grand Prix,miami,2022-05-08,leclerc,1,2
+2022,5,Miami Grand Prix,miami,2022-05-08,sainz,2,3
+2022,5,Miami Grand Prix,miami,2022-05-08,perez,4,4
+2022,5,Miami Grand Prix,miami,2022-05-08,russell,12,5
+2022,5,Miami Grand Prix,miami,2022-05-08,hamilton,6,6
+2022,5,Miami Grand Prix,miami,2022-05-08,bottas,5,7
+2022,5,Miami Grand Prix,miami,2022-05-08,ocon,20,8
+2022,5,Miami Grand Prix,miami,2022-05-08,albon,18,9
+2022,5,Miami Grand Prix,miami,2022-05-08,stroll,0,10
+2022,5,Miami Grand Prix,miami,2022-05-08,alonso,11,11
+2022,5,Miami Grand Prix,miami,2022-05-08,tsunoda,9,12
+2022,5,Miami Grand Prix,miami,2022-05-08,ricciardo,14,13
+2022,5,Miami Grand Prix,miami,2022-05-08,latifi,19,14
+2022,5,Miami Grand Prix,miami,2022-05-08,mick_schumacher,15,15
+2022,5,Miami Grand Prix,miami,2022-05-08,kevin_magnussen,16,16
+2022,5,Miami Grand Prix,miami,2022-05-08,vettel,0,17
+2022,5,Miami Grand Prix,miami,2022-05-08,gasly,7,18
+2022,5,Miami Grand Prix,miami,2022-05-08,norris,8,19
+2022,5,Miami Grand Prix,miami,2022-05-08,zhou,17,20
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,max_verstappen,1,1
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,perez,2,2
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,alonso,5,3
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,sainz,4,4
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,hamilton,7,5
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,stroll,8,6
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,russell,6,7
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,bottas,12,8
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,gasly,20,9
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,albon,15,10
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,tsunoda,14,11
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,sargeant,16,12
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,kevin_magnussen,17,13
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,de_vries,19,14
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,hulkenberg,10,15
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,zhou,13,16
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,norris,11,17
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,ocon,9,18
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,leclerc,3,19
+2023,1,Bahrain Grand Prix,bahrain,2023-03-05,piastri,18,20
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,perez,1,1
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,max_verstappen,15,2
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,alonso,2,3
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,russell,3,4
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,hamilton,7,5
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,sainz,4,6
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,leclerc,12,7
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,ocon,6,8
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,gasly,9,9
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,kevin_magnussen,13,10
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,tsunoda,16,11
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,hulkenberg,10,12
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,zhou,11,13
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,de_vries,18,14
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,piastri,8,15
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,sargeant,20,16
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,norris,19,17
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,bottas,14,18
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,albon,17,19
+2023,2,Saudi Arabian Grand Prix,jeddah,2023-03-19,stroll,5,20
+2023,3,Australian Grand Prix,albert_park,2023-04-02,max_verstappen,1,1
+2023,3,Australian Grand Prix,albert_park,2023-04-02,hamilton,3,2
+2023,3,Australian Grand Prix,albert_park,2023-04-02,alonso,4,3
+2023,3,Australian Grand Prix,albert_park,2023-04-02,stroll,6,4
+2023,3,Australian Grand Prix,albert_park,2023-04-02,perez,20,5
+2023,3,Australian Grand Prix,albert_park,2023-04-02,norris,13,6
+2023,3,Australian Grand Prix,albert_park,2023-04-02,hulkenberg,10,7
+2023,3,Australian Grand Prix,albert_park,2023-04-02,piastri,16,8
+2023,3,Australian Grand Prix,albert_park,2023-04-02,zhou,17,9
+2023,3,Australian Grand Prix,albert_park,2023-04-02,tsunoda,12,10
+2023,3,Australian Grand Prix,albert_park,2023-04-02,bottas,19,11
+2023,3,Australian Grand Prix,albert_park,2023-04-02,sainz,5,12
+2023,3,Australian Grand Prix,albert_park,2023-04-02,gasly,9,13
+2023,3,Australian Grand Prix,albert_park,2023-04-02,ocon,11,14
+2023,3,Australian Grand Prix,albert_park,2023-04-02,de_vries,15,15
+2023,3,Australian Grand Prix,albert_park,2023-04-02,sargeant,18,16
+2023,3,Australian Grand Prix,albert_park,2023-04-02,kevin_magnussen,14,17
+2023,3,Australian Grand Prix,albert_park,2023-04-02,russell,2,18
+2023,3,Australian Grand Prix,albert_park,2023-04-02,albon,8,19
+2023,3,Australian Grand Prix,albert_park,2023-04-02,leclerc,7,20
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,perez,3,1
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,max_verstappen,2,2
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,leclerc,1,3
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,alonso,6,4
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,sainz,4,5
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,hamilton,5,6
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,stroll,9,7
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,russell,11,8
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,norris,7,9
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,tsunoda,8,10
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,piastri,10,11
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,albon,12,12
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,kevin_magnussen,16,13
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,gasly,17,14
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,ocon,19,15
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,sargeant,14,16
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,hulkenberg,20,17
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,bottas,13,18
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,zhou,15,19
+2023,4,Azerbaijan Grand Prix,baku,2023-04-30,de_vries,18,20
+2023,5,Miami Grand Prix,miami,2023-05-07,max_verstappen,9,1
+2023,5,Miami Grand Prix,miami,2023-05-07,perez,1,2
+2023,5,Miami Grand Prix,miami,2023-05-07,alonso,2,3
+2023,5,Miami Grand Prix,miami,2023-05-07,russell,6,4
+2023,5,Miami Grand Prix,miami,2023-05-07,sainz,3,5
+2023,5,Miami Grand Prix,miami,2023-05-07,hamilton,13,6
+2023,5,Miami Grand Prix,miami,2023-05-07,leclerc,7,7
+2023,5,Miami Grand Prix,miami,2023-05-07,gasly,5,8
+2023,5,Miami Grand Prix,miami,2023-05-07,ocon,8,9
+2023,5,Miami Grand Prix,miami,2023-05-07,kevin_magnussen,4,10
+2023,5,Miami Grand Prix,miami,2023-05-07,tsunoda,17,11
+2023,5,Miami Grand Prix,miami,2023-05-07,stroll,18,12
+2023,5,Miami Grand Prix,miami,2023-05-07,bottas,10,13
+2023,5,Miami Grand Prix,miami,2023-05-07,albon,11,14
+2023,5,Miami Grand Prix,miami,2023-05-07,hulkenberg,12,15
+2023,5,Miami Grand Prix,miami,2023-05-07,zhou,14,16
+2023,5,Miami Grand Prix,miami,2023-05-07,norris,16,17
+2023,5,Miami Grand Prix,miami,2023-05-07,de_vries,15,18
+2023,5,Miami Grand Prix,miami,2023-05-07,piastri,19,19
+2023,5,Miami Grand Prix,miami,2023-05-07,sargeant,20,20
