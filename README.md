@@ -1,23 +1,41 @@
 # Luigi-Pit_Stop
-DSA 210 project analyzing F1 race strategy and weather.
+# Project: Strategic & Environmental Determinants of F1 Performance
 
-### 1. Project Motivation
+## 1. Motivation
+While Formula 1 is often viewed as a competition of engineering, race strategy and environmental conditions significantly influence outcomes. This project aims to quantify the impact of "uncontrollable" variables (weather) and "strategic" variables (pit stops, tyre degradation) on a driver's ability to over-perform their qualifying pace. The goal is to determine if statistical dependencies exist between specific weather patterns and the volatility of race results.
 
-I'm a huge Formula 1 fan and I've always been fascinated by the strategy, especially how much the technology and the environment play a role. It feels like a race can be completely decided by a good pit strategy or a sudden change in the weather.
+## 2. Data Sources
+This project follows the course requirement to enrich a public dataset with a secondary data source.
 
-My project idea is to actually test this with data. I want to see how strongly weather conditions (like rain, track temperature, etc.) and tyre strategy (like which compounds were used and when they pitted) correlate with a driver's final race result.
+* **Primary Source (Race Data):** * **Source:** Ergast Developer API (http://ergast.com/mrd/)
+    * **Content:** Historical race results, qualifying data, lap times, pit stop timing, and circuit information from the 2018–2023 seasons.
+* **Enrichment Source (Weather Data):** * **Source:** Kaggle F1 Weather Archive
+    * **Content:** Precipitation levels, air temperature, and track temperature corresponding to the specific dates and geolocation of each Grand Prix.
 
-My main question is: **Can we find a clear, data-backed link between strategy, weather, and a driver's ability to "over-perform" (i.e., finish much higher than their starting grid position)?**
+## 3. Data Collection & Processing Plan
+1.  **Ingestion:** Python scripts utilizing the `requests` library will iteratively fetch race data from the Ergast API and store it in pandas DataFrames.
+2.  **Cleaning:** The pipeline will handle null values (DNFs) and parse time-delta strings (e.g., "+12.3s") into floating-point seconds.
+3.  **Enrichment:** Weather data will be merged with race data using a composite key of `RaceID`, `Date`, and `CircuitLocation`.
+4.  **Feature Engineering:** * `PositionDelta`: Calculated as `Grid Position - Finishing Position` to measure performance gain/loss.
+    * `StrategyIndex`: A derived metric representing the number of pit stops relative to the race average.
 
-### 2. Data I'm Planning to Use
+## 4. Planned Analysis & Methodology
+To analyze the correlation between strategy/weather and race outcomes, the following statistical and machine learning methods will be applied:
 
-As required by the project guidelines, I'll be using two separate public datasets and merging them:
+### A. Exploratory Data Analysis (EDA)
+* **Distribution Analysis:** Histograms of `PositionDelta` to understand the variance of overtaking in modern F1.
+* **Correlation Heatmaps:** Analyzing the relationship between Track Temperature, Tyre Compound choice, and Lap Time consistency.
 
-* **Primary Data Source:** Historical F1 race data. This will include race results, driver starting positions, lap times, and detailed pit stop information (what lap, what tyre compound).
-* **Enrichment Data Source:** Historical weather data for F1 race locations. I found a public dataset that has details like air temperature, track temperature, and whether it was raining during the race.
+### B. Hypothesis Testing (Target: Nov 28)
+* **Test 1 (T-Test):** * *Null Hypothesis ($H_0$):* There is no significant difference in `PositionDelta` between drivers who follow the average pit strategy versus those who deviate (make extra/fewer stops).
+* **Test 2 (Chi-Square Test of Independence):**
+    * *Null Hypothesis ($H_0$):* The frequency of "Safety Car" interventions is independent of "Wet" weather declarations.
 
-### 3. My Plan for Data Collection
+### C. Machine Learning (Target: Jan 02)
+* **Predictive Modeling:** Training a **Random Forest Regressor** to predict a driver's final `PositionDelta` based on features: `GridPosition`, `Precipitation`, `TrackTemp`, and `ConstructorTier`.
 
-1.  **Get the Race Data:** I'll use the **Ergast Developer API**. It's a free, public API with tons of F1 history in JSON format. I'm planning to write a Python script (using `requests` and `pandas`) to pull the race, lap, and pit stop data for the last several seasons.
-2.  **Get the Weather Data:** I'll use a public dataset (like one from Kaggle) that already has historical F1 weather info. This data is usually in a simple CSV file, so I can just download it.
-3.  **Combine Them:** The main task will be to clean and merge these two datasets. I'll use the race date and the circuit (e.g., "Silverstone") as the key to match the weather from one dataset to the race results from the other. This will give me one "enriched" master dataset to start my analysis on.
+## 5. Timeline
+* **Oct 31:** Project Proposal & Git Setup (Completed)
+* **Nov 28:** Data Collection, EDA, and Hypothesis Testing (In Progress)
+* **Jan 02:** Machine Learning Model Implementation
+* **Jan 09:** Final Report & Submission
