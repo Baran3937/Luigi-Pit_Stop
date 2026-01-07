@@ -1,41 +1,39 @@
-# Luigi-Pit_Stop
-# Project: Strategic & Environmental Determinants of F1 Performance
+# Final Report: Strategic & Environmental Determinants of F1 Performance
 
 ## 1. Motivation
-While Formula 1 is often viewed as a competition of engineering, race strategy and environmental conditions significantly influence outcomes. This project aims to quantify the impact of "uncontrollable" variables (weather) and "strategic" variables (pit stops, tyre degradation) on a driver's ability to over-perform their qualifying pace. The goal is to determine if statistical dependencies exist between specific weather patterns and the volatility of race results.
+Formula 1 is often viewed as a competition of pure engineering, but race strategy and environmental conditions play a massive role in the outcome. This project aims to quantify the impact of "uncontrollable" variables (weather) and "strategic" variables (pit stops/grid position) on a driver's ability to over-perform their qualifying pace. The central question is: *Can we predict a driver's performance gain solely based on starting position and weather conditions?*
 
 ## 2. Data Sources
-This project follows the course requirement to enrich a public dataset with a secondary data source.
+This project enriches a primary F1 dataset with a secondary weather dataset, meeting the course requirement for data enrichment.
+* **Primary Source:** **Ergast Developer API** (via Jolpica Mirror). Contains race results, grid positions, and circuit data for the 2019–2023 seasons.
+* **Enrichment Source:** **Kaggle F1 Weather Dataset**. Contains granular weather logs (Rainfall, Air Temp, Track Temp) matched to specific Grand Prix locations.
+* **Collection Method:** Data was collected programmatically using Python scripts (`requests` library) and merged using a composite key of `Year` and `Round Number`.
 
-* **Primary Source (Race Data):** * **Source:** Ergast Developer API (http://ergast.com/mrd/)
-    * **Content:** Historical race results, qualifying data, lap times, pit stop timing, and circuit information from the 2018–2023 seasons.
-* **Enrichment Source (Weather Data):** * **Source:** Kaggle F1 Weather Archive
-    * **Content:** Precipitation levels, air temperature, and track temperature corresponding to the specific dates and geolocation of each Grand Prix.
+## 3. Methodology
+The project followed a standard Data Science pipeline:
+1.  **Data Collection:** Automated fetching of 5 years of race data.
+2.  **Cleaning & Merging:** Handling missing values (DNFs) and synchronizing race dates with weather logs.
+3.  **Feature Engineering:** * Created `PositionDelta` (Grid Position - Finishing Position) as the target variable.
+    * Normalized weather metrics (AirTemp, TrackTemp).
+4.  **Machine Learning:** Implemented a **Random Forest Regressor** to predict performance changes.
 
-## 3. Data Collection & Processing Plan
-1.  **Ingestion:** Python scripts utilizing the `requests` library will iteratively fetch race data from the Ergast API and store it in pandas DataFrames.
-2.  **Cleaning:** The pipeline will handle null values (DNFs) and parse time-delta strings (e.g., "+12.3s") into floating-point seconds.
-3.  **Enrichment:** Weather data will be merged with race data using a composite key of `RaceID`, `Date`, and `CircuitLocation`.
-4.  **Feature Engineering:** * `PositionDelta`: Calculated as `Grid Position - Finishing Position` to measure performance gain/loss.
-    * `StrategyIndex`: A derived metric representing the number of pit stops relative to the race average.
+## 4. Findings & Analysis
+The analysis yielded statistically significant results regarding what drives performance in F1.
 
-## 4. Planned Analysis & Methodology
-To analyze the correlation between strategy/weather and race outcomes, the following statistical and machine learning methods will be applied:
+### Key Finding 1: The Dominance of Grid Position
+Using a Random Forest model, we achieved an **R2 Score of 0.99**, indicating extremely high predictive accuracy. The Feature Importance analysis revealed that **Grid Position** is the single most critical factor in determining a driver's ability to gain places. This suggests that modern F1 is highly dependent on qualifying performance.
 
-### A. Exploratory Data Analysis (EDA)
-* **Distribution Analysis:** Histograms of `PositionDelta` to understand the variance of overtaking in modern F1.
-* **Correlation Heatmaps:** Analyzing the relationship between Track Temperature, Tyre Compound choice, and Lap Time consistency.
+### Key Finding 2: Weather Impact
+Contrary to the initial hypothesis that "Rain" would be the biggest disruptor, **Air Temperature** proved to be the second most important feature, outweighing Rainfall and Humidity. This implies that thermal management (engine cooling, tyre temperatures) may have a more consistent impact on race pace than sporadic rain events.
 
-### B. Hypothesis Testing (Target: Nov 28)
-* **Test 1 (T-Test):** * *Null Hypothesis ($H_0$):* There is no significant difference in `PositionDelta` between drivers who follow the average pit strategy versus those who deviate (make extra/fewer stops).
-* **Test 2 (Chi-Square Test of Independence):**
-    * *Null Hypothesis ($H_0$):* The frequency of "Safety Car" interventions is independent of "Wet" weather declarations.
+### Key Finding 3: Hypothesis Test
+A T-Test confirmed (p < 0.05) that drivers starting in the "Top 3" positions have a significantly different `PositionDelta` compared to the midfield. Top drivers rarely gain positions (because they are already at the front), whereas mid-field drivers have higher variance.
 
-### C. Machine Learning (Target: Jan 02)
-* **Predictive Modeling:** Training a **Random Forest Regressor** to predict a driver's final `PositionDelta` based on features: `GridPosition`, `Precipitation`, `TrackTemp`, and `ConstructorTier`.
+## 5. Limitations & Future Work
+* **Limitations:** The model's extremely high accuracy (0.99) suggests "Grid Position" might be too strong of a predictor, potentially overshadowing subtle strategy variables like tyre compound choices.
+* **Future Work:** A future iteration of this project would remove "Grid Position" from the features to force the model to learn purely from weather and pit stop strategy.
 
-## 5. Timeline
-* **Oct 31:** Project Proposal & Git Setup (Completed)
-* **Nov 28:** Data Collection, EDA, and Hypothesis Testing (In Progress)
-* **Jan 02:** Machine Learning Model Implementation
-* **Jan 09:** Final Report & Submission
+## 6. How to Reproduce
+1.  Clone this repository.
+2.  Install dependencies: `pip install -r requirements.txt`
+3.  Run the analysis notebook: `final_project_analysis.ipynb`
